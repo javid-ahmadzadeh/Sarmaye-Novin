@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup_javid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gilan_stock.tkp.splite.SignupJavid">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TKP.IR"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextName"
+        android:layout_below="@+id/NAME1"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Your Name"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextFAMILY"
+        android:layout_below="@+id/EditTextFullName"
+        android:layout_marginTop="20dp"
+
+        android:hint="Enter Your FAMILY"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextAGE"
+
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Enter Your AGE"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextEXPERICE"
+        android:layout_below="@+id/EditTextEmail"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Enter Your EXPERNISE"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextEMAIL"
+        android:layout_below="@+id/EditTextEmail"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Enter Your EMAIL"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here To Register"
+        android:layout_below="@+id/EditTextPassword"
+        android:id="@+id/ButtonRegister"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
